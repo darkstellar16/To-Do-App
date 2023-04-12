@@ -1,6 +1,21 @@
 .formData{
     width:300px;
-    height:300px;
+    min-height:300px;
     border: solid;
-    background-color: black;
+    /* background-color: black; */
+}
+.dataContainer
+{
+    width: 200px;
+    min-height:200px;
+    border: solid;
+    border-color: black;
+}
+
+.taskContainer
+{
+    width: 200px;
+    min-height: 20px;
+    border: solid;
+    border-color: black;
 }
