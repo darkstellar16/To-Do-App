@@ -10,10 +10,12 @@ const path = require('path');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
+app.use(express.json());
 
-app.set('view engine', 'ejs');
 
-app.use(express.static('public'));
+// app.set('view engine', 'ejs');
+
+// app.use(express.static('public'));
 
 const main = require("./routes/index.js");
 
